@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+.logotype {
+  display: flex;
+  justify-content: center;
+  margin: 8rem 0;
+  font-family: "Baloo Da 2", sans-serif;
+  font-size: 5rem;
+  line-height: 1;
+}
+
+.twelve {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+  height: 8rem;
+  margin-top: -1.8rem;
+  background-color: firebrick;
+  border-radius: 50%;
+  color: white;
+  z-index: 1;
+}
+
+  .twelve::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 6rem;
+    display: none;
+    width: 2rem;
+    height: 2rem;
+    background-color: forestgreen;
+    background-color: mediumseagreen;
+    border-radius: 50%;
+    z-index: -1;
+  }
+
+.letter {
+  /*font-weight: 400;*/
+  transition: transform 350ms ease-out;
+}
+
+input[type="checkbox"],
+input[type="checkbox"] + label {
+  font-size: 2rem;
+}
+
+input[type="checkbox"] {
+  position: relative;
+  top: 3px;
+  left: 5px;
+  width: 2rem;
+  height: 2rem;
+  margin: 0;
+}
+
+input[type="radio"] {
+  position: absolute;
+  left: -100vw;
+}
+
+input[name="weight"] + label,
+input[name="family"] + label {
+  padding: 0 1rem;
+  font-size: 2rem;
+  border-radius: 4px;
+}
+
+input[name="weight"]:checked + label,
+input[name="family"]:checked + label {
+  background-color: lightgrey;
+}
+
+#uppercase:checked ~ .logotype {
+  text-transform: uppercase;
+}
+
+#stem:checked ~ .logotype .twelve::after {
+  display: block;
+}
+
+#fw-100:checked ~ .logotype {
+  font-weight: 100;
+}
+
+#fw-200:checked ~ .logotype {
+  font-weight: 200;
+}
+
+#fw-300:checked ~ .logotype {
+  font-weight: 300;
+}
+
+#fw-400:checked ~ .logotype {
+  font-weight: 400;
+}
+
+#fw-500:checked ~ .logotype {
+  font-weight: 500;
+}
+
+#fw-600:checked ~ .logotype {
+  font-weight: 600;
+}
+
+#fw-700:checked ~ .logotype {
+  font-weight: 700;
+}
+
+#fw-800:checked ~ .logotype {
+  font-weight: 800;
+}
+
+#fw-900:checked ~ .logotype {
+  font-weight: 900;
+}
+
+.baloo2,
+#baloo2:checked ~ .logotype {
+  font-family: "Baloo Da 2";
+}
+
+.firasans,
+#firasans:checked ~ .logotype, {
+  font-family: "Fira Sans";
+}
+
+.firasans-cd,
+#firasans-cd:checked ~ .logotype {
+  font-family: "Fira Sans Condensed";
+}
+
+.rubik,
+#rubik:checked ~ .logotype {
+  font-family: "Rubik";
+}
+
+.nunito,
+#nunito:checked ~ .logotype {
+  font-family: "Nunito";
+}
+
+.ubuntu,
+#ubuntu:checked ~ .logotype {
+  font-family: "Ubuntu";
+}
+
+
+
+.t1 {
+  transform: translateX(-7rem);
+}
+
+.o1 {
+  transform: translateX(-10rem);
+}
+
+.m {
+  transform: translateX(-13rem);
+}
+
+.a {
+  transform: translateX(-16rem);
+}
+
+.t2 {
+  transform: translateX(-18rem);
+}
+
+.o2 {
+  transform: translateX(-20rem);
+}
+
+.e {
+  transform: translateX(-22rem);
+}
+
+.s {
+  transform: translateX(-24rem);
+}
+
+
+
+
+
+@media screen and (min-width: 700px) {
+  .t1, .o1, .m, .a, .t2, .o2, .e, .s {
+    transform: translateX(0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

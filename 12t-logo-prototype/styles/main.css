@@ -1,0 +1,142 @@
+/* =========================================================================
+    Stylesheet for Project: A New Study Template
+    Author: August Dombrow
+    Date: 14 May 2020
+    Outline
+      o RESET
+        - layout
+        - typography
+        - media
+        - queries
+   ========================================================================= */
+
+
+
+
+
+/* ================================================================ RESET == */
+/* =============================================================== layout == */
+
+html {
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  tab-size: 2;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+body {
+  min-height: 100vh;
+  margin: 1rem auto;
+  padding: 1rem;
+  font-family: "Equity Text B", Georgia, serif;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  scroll-behavior: smooth;
+}
+
+main > * + * {
+  margin-top: 1em;
+}
+
+nav ol, nav ul,
+form ol, form ul {
+  list-style: none;
+  padding: 0;
+}
+
+hr {
+  height: 0;
+  overflow: visible;
+}
+
+
+
+/* =========================================================== typography == */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Concourse T3", Verdana, sans-serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.2em;
+}
+
+
+
+/* ================================================================ media == */
+
+img,
+object,
+embed {
+  display: block;
+  max-width: 100%;
+  height: auto; /* necessary? */
+}
+
+
+
+/* ============================================================== queries == */
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+
+
+/* temp */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Concourse T3";
+}
+
+main {
+  margin: 0 auto;
+  max-width: 40rem;
+  min-width: 515px;
+}
+
+header,
+footer {
+  display: flex;
+  align-items: flex-end;
+  padding: .5rem 1rem;
+  min-height: 10vh;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 0;
+  color: darkslategrey;
+}
+
+input + label {
+  margin-right: 1rem;
+}
+
+hr {
+  width: 120%;
+  margin-left: -10%;
+}
