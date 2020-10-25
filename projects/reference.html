@@ -1,1 +1,207 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML/CSS Reference | A Codecademy Project</title>
+  <link href="./styles/main.css" rel="stylesheet">
+  <link href="./styles/reference.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>HTML<span class="title-cross">&times;</span>CSS Reference</h1>
+    <p>A Codecademy Project</p>
+  </header>
+  <hr>
+  <main>
+    <h2>Tables</h2>
+    <!-- TODO: 
+        [_] additional research on responsive/mobile table presentation 
+          o add variable number of columns?
+        [_] additional research on sticky headers
+        [_] additional research on sorting tables
+        [_] additional research on searching/filtering tables
+        [_] additional research on zebra stripes (leaning no for now) 
+        [_] recreate ET examples as a responsnive demo? 
+            - https://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=00041I
+        [_] consolidate color palette and add to code snippets
+    -->
+    <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics"></a>
+    <ul>
+      <!-- TODO: more research into tables (both web/contemporary and print/historic) for better writeup -->
+      <li>structured set of data made up of rows and columns (tabular data)</li>
+      <li>allows you to quickly and easily look up values that indicate some kind of connection between different types of data</li>
+      <li>does it makes sense in a spreadsheet?</li>
+    </ul>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Tag</th>
+          <th scope="col">Name</th>
+          <th scope="col">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>&lt;table&gt;</code></td>
+          <td>Table</td>
+          <td>The wrapper element for all HTML tables.</td>
+        </tr>
+        <tr>
+          <td><code>&lt;thead&gt;</code></td>
+          <td>Table Head</td>
+          <td>The set of rows defining the column headers in a table. Semantically indicate that rows contain no data but provide titles for the corresponding columns of a table. If included, no <code>&lt;tr&gt;</code> may be a direct child of <code>&lt;table&gt;</code></td>
+        </tr>
+        <tr>
+          <td><code>&lt;tbody&gt;</code></td>
+          <td>Table Body</td>
+          <td>The set of rows containing actual table data.</td>
+        </tr>
+        <tr>
+          <td><code>&lt;tfoot&gt;</code></td>
+          <td>Table Foot</td>
+          <td>The set of rows defining the footer in a table. Semantically indicates rows contain no data but provide ancillary information. Must go after <code>&lt;tbody&gt;</code>.</td>
+        </tr>
+        <tr>
+          <td><code>&lt;tr&gt;</code></td>
+          <td>Table Row</td>
+          <td>The table row container.</td>
+        </tr>
+        <tr>
+          <td><code>&lt;th&gt;</code></td>
+          <td>Tabular Header</td>
+          <td>Individual cells of a table. Contains title for data.</td>
+        </tr>
+        <tr>
+          <td><code>&lt;td&gt;</code></td>
+          <td>Tabular Data</td>
+          <td>Individual cells of a table. Contains data.</td>
+        </tr>
+        <tr>
+          <td><code>&lt;caption&gt;</code></td>
+          <td>Caption</td>
+          <td>Caption describing the associated table. (Similar to the relationship between <code>figcaption</code> and <code>figure</code>).</td>
+        </tr>
+        <tr>
+          <td><code>&lt;col&gt;</code></td>
+          <td>Column</td>
+          <td>A column (a no-content element).</td>
+        </tr>
+        <tr>
+          <td><code>&lt;colgroup&gt;</code></td>
+          <td>Column Group</td>
+          <td>A groupd of columns.</td>
+        </tr>
+      </tbody>
+      <caption>Table Tags</caption>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Attribute</th>
+          <th scope="col">Applicable To</th>
+          <th scope="col">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>colspan</code></td>
+          <td><code>&lt;th&gt;</code>, <code>&lt;td&gt;</code></td>
+          <td>Defines how many columns (horizontal) a <code>&lt;td&gt;</code> element should span. Accepts any positive integer.</td>
+        </tr>
+        <tr>
+          <td><code>rowspan</code></td>
+          <td><code>&lt;th&gt;</code>, <code>&lt;td&gt;</code></td>
+          <td>Defines how many rows (vertical) a <code>&lt;td&gt;</code> element should span. Accepts any positive integer.</td>
+        </tr>
+        <tr>
+          <td><code>span</code></td>
+          <td><code>&lt;col&gt;</code></td>
+          <td>Makes a column apply to two or more columns.</td>
+        </tr>
+        <tr>
+          <td><code>sortable</code></td>
+          <td><code>&lt;table&gt;</code></td>
+          <td>Indicates table should allow sorting. (Removed from spec for lack of implementation?)</td>
+        </tr>
+        <tr>
+          <td><code>headers</code></td>
+          <td><code>&lt;td&gt;</code></td>
+          <td>Space-separated string corresponding to the IDs of the <code>&lt;th&gt;</code> elements relevsnt to the data.</td>
+        </tr>
+        <tr>
+          <td><code>scope</code></td>
+          <td><code>&lt;th&gt;</code>, <code>&lt;td&gt;</code></td>
+          <td>Defines how many rows (vertical) a <code>&lt;td&gt;</code> element should span. Accepts any positive integer.</td>
+        </tr>
+      </tbody>
+      <caption>Table Attributes</caption>
+    </table>
 
+
+    <h3>Best Practices</h3>
+    <ul>
+      <li>Use <code>table-layout: fixed</code> to <a href="https://css-tricks.com/fixing-tables-long-strings/">create a more predictable table layout</a> that allows you to easily set column widths by setting width on their headings (<code>&lt;th&gt;</code>).</li>
+      <li>Use <code>border-collapse: collapse</code> to make table elements borders collapse into each other (2px gap by default), producing a neater and easier to control look.</li>
+    </ul>
+
+    <h3>Reset/Normalize/Code Snippets Section?</h3>
+    <pre>
+    /* base reset/normalize */
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      padding: 0.25rem;
+      text-align: left;
+      border: 1px solid silver;
+    }
+    
+    /* optional zebra-striping (add :nth-child(even) for further customization) */
+    tbody tr:nth-child(odd) {
+      background: silver;
+    }
+    
+    /* optional highlighting on hover */
+    /* 1. highlight individual cells */
+    td:hover { /* th:hover also if you wish */
+      background: whitesmoke;
+    }
+
+    /* 2. highlight rows */
+    /* 2a. works as long so long as no declaration for td/th background... */
+    tbody tr:hover {   <!-- alternately, manipulate font styles? style for :focus state? -->
+      background: whitesmoke;
+    }
+
+    /* 2b. ...otherwise, use this */
+    tr:hover td, tr:hover th { 
+      background: whitesmoke;
+    }
+    </pre>
+    <h3>Further Reading</h3>
+    <ul>
+      <li>
+        <a href="https://css-tricks.com/complete-guide-table-element/">
+        A Complete Guide to the Table Element (<i>CSS css-tricks</i>)</a>
+      </li>
+      <li>
+        <i>Edward Tufte on tables?</i>
+      </li>
+      <li>
+        <!-- TODO: updated or original version? -->
+        <a href="http://static1.squarespace.com/static/56713bf4dc5cb41142f28d1f/t/56fd4c83746fb9261146eed5/1459440776291/ClearOffTheTableMd.gif">Remove (and Move) to Improve Data Tables (<i>Darkhorse Analytics</i>)
+        </a>
+      </li>
+    </ul>
+    <hr>
+    <h2><i>More entries coming soon&hellip;</i></h2>
+  </main>
+  <footer>
+    <hr>
+    <p>&copy; 2009–2020, site design and contents by august dombrow, except where noted</p>
+  </footer>
+</body>
+</html>
