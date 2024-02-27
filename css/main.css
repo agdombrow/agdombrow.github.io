@@ -1,0 +1,135 @@
+/* GLOBAL STYLES */
+/* CSS Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+}
+
+body {
+  line-height: 1.5;
+}
+
+/* defaults */
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 7vw;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+a {
+  color: #f00;
+}
+
+/* SITE STYLES */
+/* - header styles */
+.header-nav {
+  float: right;
+  padding: 5.5vh 60px 0 0;
+}
+
+.header-nav > li {
+  display: inline-block;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.header-nav a {
+  color: #000;
+  font-size: .8rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* - hero styles */
+.full-hero {
+  background-color: #c7dbfc;
+  height: 50vh;
+}
+
+/* - social styles */
+.social-list {
+  padding: 0;
+  text-align: center;
+  list-style: none;
+}
+
+.social-list > li {
+  display: inline-block;
+  margin: 0 .5em;
+}
+
+.social-link {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 2.5em;
+  height: 2.5em;
+  padding-top: 0.85em;
+  background-color: rgba(150, 150, 150, .5);
+  border-radius: 50%;
+  color: white;
+  font-family: "Opens Sans", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 #000;
+  letter-spacing: 1px;
+  vertical-align: top;
+}
+
+
+/* PAGE STYLES */
+/* - bio styles */
+.bio-wrapper {
+  max-width: 960px;
+  margin: 50px auto 100px;
+  overflow: hidden;
+}
+
+.bio-box {
+  float: left;
+  box-sizing: border-box;
+  width: 23%;
+  margin: 40px 1% 0;
+  padding: 2%;
+  border: 1px solid black;
+  font-size: 1rem;
+}
+
+.bio-box h3 {
+  margin: -2rem 0 1rem;
+  background-color: rgba(0, 0, 0, .75);
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.bio-box img {
+  width: 100%;
+}
+
+.bio-box .social-link {
+  display: block;
+  margin: 10px auto;
+}
+
+.bio-copy {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.bio-copy a {
+  color: green;
+}
