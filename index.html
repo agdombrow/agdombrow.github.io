@@ -21,7 +21,7 @@
     }
 
     a {
-      color: red;
+      color: #f00;
     }
     
     /* SITE STYLES */
@@ -30,24 +30,73 @@
       background-color: #c7dbfc;
       height: 50vh;
     }
+
     /* - social styles */
-    .social-link {
-      color: blue;
+    .social-list {
+      padding: 0;
+      text-align: center;
+      list-style: none;
     }
+
+    .social-list > li {
+      display: inline-block;
+      margin: 0 .5em;
+    }
+    
+    .social-link {
+      box-sizing: border-box;
+      display: inline-block;
+      width: 2.5em;
+      height: 2.5em;
+      padding-top: 0.85em;
+      background-color: rgba(150, 150, 150, .5);
+      border-radius: 50%;
+      color: white;
+      font-family: "Opens Sans", Helvetica, Arial, sans-serif;
+      font-size: 1rem;
+      line-height: 1;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      text-shadow: 1px 1px 0 #000;
+      letter-spacing: 1px;
+      vertical-align: top;
+    }
+
     
     /* PAGE STYLES */
     /* - bio styles */
     .bio-wrapper {
-      
+      max-width: 960px;
+      margin: 50px auto 100px;
+      overflow: hidden;
     }
     
     .bio-box {
-      width: 50%;
+      float: left;
+      box-sizing: border-box;
+      width: 23%;
+      margin: 40px 1% 0;
+      padding: 2%;
       border: 1px solid black;
+      font-size: 1rem;
+    }
+
+    .bio-box h3 {
+      margin: -2rem 0 1rem;
+      background-color: rgba(0, 0, 0, .75);
+      color: #fff;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    .bio-box img {
+      width: 100%;
     }
 
     .bio-copy {
-      
+      font-size: 1em;
+      line-height: 1.5;
     }
 
     .bio-copy a {
@@ -59,10 +108,10 @@
   <div class="full-hero hero-home">
     <h1>I'm an h1</h1>
 
-    <ul>
-      <li><a href="#">Link</a></li>
-      <li><a href="#">Link</a></li>
-      <li><a href="#">Link</a></li>
+    <ul class="social-list">
+      <li><a href="#" class="social-link">FB</a></li>
+      <li><a href="#" class="social-link">X</a></li>
+      <li><a href="#" class="social-link">GH</a></li>
     </ul>
   </div>
 
@@ -70,6 +119,7 @@
 
   <div class="bio-wrapper">
     <div class="bio-box">
+      <img src="https://baconmockup.com/400/400" alt="meat">
       <h3>Michael Hartl</h3>
       <a href="#" class="social-link">here</a>
       <div class="bio-copy">
@@ -78,6 +128,7 @@
     </div>
 
     <div class="bio-box">
+      <img src="https://baconmockup.com/400/400" alt="meat">
       <h3>Lee Donahoe</h3>
       <a href="#" class="social-link">here</a>
       <div class="bio-copy">
@@ -86,6 +137,7 @@
     </div>
 
     <div class="bio-box">
+      <img src="https://baconmockup.com/400/400" alt="meat">
       <h3>Nick Merwin</h3>
       <a href="#" class="social-link">here</a>
       <div class="bio-copy">
@@ -94,9 +146,16 @@
     </div>
       
     <div class="bio-box">
+      <img src="https://baconmockup.com/400/400" alt="meat">
       <h3>???</h3>
       <p>The Future</p>
     </div>
   </div>
+
+  <p>HTML, which stands for HyperText Markup Language, is the standard language used to create and design web pages. It provides the structure and layout for content on the internet. HTML consists of a series of elements that define the different parts of a webpage, such as headings, paragraphs, images, links, and more.</p>
+
+  <p>When writing HTML, developers use tags to mark different elements on the page. Tags are enclosed in angle brackets, with the opening tag indicating the start of an element and the closing tag indicating the end. For example, the <code>&lt;p&gt;</code> tag is used to define a paragraph, with the content of the paragraph placed between the opening and closing tags.</p>
+
+  <p>HTML is a versatile language that allows developers to create interactive and dynamic web pages. By combining HTML with CSS (Cascading Style Sheets) and JavaScript, developers can enhance the appearance and functionality of their websites. HTML5 is the latest version of HTML, introducing new features like native multimedia support, new structural elements, and improved form controls.</p>
 </body>
 </html>
