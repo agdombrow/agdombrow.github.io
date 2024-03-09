@@ -10,7 +10,8 @@
   <header class="header">
   <nav>
     <ul class="header-nav nav-links">
-      <li><a href="./">Home</a></li>
+      <li><a href="/">Home</a></li>
+<li><a href="/gallery/">Gallery</a></li>
 <li><a href="#">About</a></li>
 <li><a href="#">Blog</a></li>
 <li><a href="#">Contact</a></li>
@@ -23,7 +24,25 @@
 </header>
 
   <div class="content-container">
-    <p>I'm the gallery</p>
+    <div class="gallery col-3">
+  <div id="gallery-thumbs" class="col col-nav gallery-thumbs">
+    <div class="current">
+      <img src="/images/small/slide1.jpg" alt="Orchid 01">
+    </div>
+    <div>
+      <img src="/images/small/slide1.jpg" alt="Orchid 02">
+    </div>
+  </div>
+  <div class="col col-content">
+    <div id="gallery-photo" class="gallery-photo">
+      <img src="/images/large/slide1.jpg" alt="Orchid 01">
+    </div>
+  </div>
+  <div id="gallery-info" class="col col-aside gallery-info">
+    <h3>Image title 1</h3>
+    <p>Image description 1</p>
+  </div>
+</div>
   </div>
 
   <footer class="footer">
@@ -32,7 +51,8 @@
   </a>
   <nav>
     <ul class="footer-nav nav-links">
-      <li><a href="./">Home</a></li>
+      <li><a href="/">Home</a></li>
+<li><a href="/gallery/">Gallery</a></li>
 <li><a href="#">About</a></li>
 <li><a href="#">Blog</a></li>
 <li><a href="#">Contact</a></li>
