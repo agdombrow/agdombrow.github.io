@@ -1,0 +1,23 @@
+---
+layout: post
+title: Unseen Depths&colon; Subtext and Symbolism in <i>Jaws</i>
+postHero: /images/shark.jpg
+author: Finn N. Waters
+authorTwitter: http:/twitter.com/
+gravatar: https://source.unsplash.com/random/150x150?shark
+postFooter: Additional information and maybe a <a href="#">link or two</a>.
+---
+
+In the balmy summer of 1975, _Jaws_ famously sent shockwaves across the globe, forever altering our collective relationship with the ocean. Yet, beneath the film's skin-prickling suspense and iconic one-liners lies a depth often unexplored—the weaving of subtext and symbolism that underpins this landmark cinematic treasure.
+
+<img class="pull-left" src="https://source.unsplash.com/random/400x400?shark" alt="Shark.">
+
+Steven Spielberg’s thriller is not merely a tale of man versus beast; it is a complex narrative illustrating societal fears, the inherent vulnerability of humankind, and the consequences of our intrusion into nature. Amity Island, a seemingly serene community, becomes a microcosm for a world that is blissfully unaware of the dangers that can emerge from the unseen, from the depths where knowledge and control slip through our fingers like sand.
+
+The shark, with its dagger-like teeth and relentless presence, is a masterclass in allegory—a silent predator emerging from the depths to claim not just the lives of the unsuspecting, but also the security once taken for granted. It symbolizes an ever-present fear, the unseen horror that lurks just beneath the surface of our consciousness. The creature’s sporadic appearances are a deft reminder of our subconscious dread, a limitless depth where anxiety looms large.
+
+But _Jaws_ also swims through the waters of power and politics, exploring the lengths leaders will go to preserve the veneer of safety. Mayor Larry Vaughn's infamous disregard for the clear dangers posed by the great white shark reflects a widespread denial, a resistance to confront what we fear, no matter the cost. Spielberg uses the character to shine a light on the dangers of ignorance and the moral bankruptcy that can accompany political expediency.
+
+Thus, the film's tension is derived as much from the interpersonal dynamics and the decisions of the townsfolk as it is from the lurking menace offshore. The shark becomes a silent adjudicator of character, a catalyst that exposes the true nature of the people it encounters. In this crucible, heroes and cowards are forged alike, as the quintessential battle for survival against an unfeeling, unconquerable foe brings out both the worst and the best in humanity.
+
+Ironically, while _Jaws_ vividly but unintentionally sullied the reputation of sharks as indiscriminate killers, it ironically initiated a global fascination with these misunderstood creatures. The chills that once hounded theater-goers have, in the decades following, transformed into a rallying cry for conservation, a call to protect that which we once feared without reason. The subtext and symbolism woven through _Jaws_ thus not only immortalized a cinematic classic but breached an unintended consequence—the birth of shark advocacy from the jaws of terror.
