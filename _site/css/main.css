@@ -297,6 +297,12 @@ a {
   color: #fff;
 }
 
+.half-hero {
+  height: 40vh;
+  background-position: center center;
+  background-size: cover;
+}
+
 
 /* - social styles */
 .social-list {
@@ -380,6 +386,20 @@ a {
   margin-bottom: 1.5rem;
   /* font-size: 2.5rem; */
   text-align: center;
+}
+
+.home-section h4 {
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.home-section .post-header {
+  text-align: center;
+}
+
+.home-section .blog-posts {
+  width: 75%;
+  margin: auto;
 }
 
 /* - bio styles */
@@ -528,4 +548,49 @@ a {
   background-color: #f8f8f8;
   background-size: cover;
   background-position: center;
+}
+
+.post {
+  width: 100%;
+}
+
+.post .post-header {
+  margin-bottom: 2.5em;
+  text-align: center;
+}
+
+.post-content,
+.post-footer {
+  width: 85vw;
+  max-width: 40em;
+  margin: auto;
+}
+
+.post-content {
+  font-size: 1.1rem;
+}
+
+.post-footer {
+  margin-top: 3em;
+  padding-top: 2em;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.post-aside {
+  float: right;
+  margin: 0 0 2em 2em;
+  padding: 2em;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.pull-left {
+  float: left;
+  margin: .25em 1em 0 -2%;
+}
+
+.pull-right {
+  float: right;
+  margin: .25em -2% 0 1em;
 }
